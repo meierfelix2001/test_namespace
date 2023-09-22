@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQLNG1_TRANS_MIN_STAT' 
+@MappingRole: true 
+define role /FISXEE/SQLNG1_TRANS_MIN_STAT { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQLNG1_TRANS_MIN_STAT 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

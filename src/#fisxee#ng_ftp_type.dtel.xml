@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/FISXEE/NG_FTP_TYPE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/FISXEE/NG_FTP_TYPE</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>FTP-Verbindungstyp</DDTEXT>
+    <REPTEXT>FTP-Verbindungstyp</REPTEXT>
+    <SCRTEXT_S>Verb.Typ</SCRTEXT_S>
+    <SCRTEXT_M>Verbindungstyp</SCRTEXT_M>
+    <SCRTEXT_L>FTP-Verbindungstyp</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

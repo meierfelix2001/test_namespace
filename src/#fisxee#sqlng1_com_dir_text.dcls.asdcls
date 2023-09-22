@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQL_NG_COM_DIR_TEXT' 
+@MappingRole: true 
+define role /fisxee/sqlNg1_Com_Dir_Text { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQLNG1_COM_DIR_TEXT 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

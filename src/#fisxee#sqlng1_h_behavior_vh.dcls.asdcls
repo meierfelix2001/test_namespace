@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQLNG1_H_BEHAVIOR_VH'
+@MappingRole: true
+define role /fisxee/sqlNg1_H_Behavior_VH {
+  grant
+    select
+      on
+        /FISXEE/SQLNG1_H_BEHAVIOR_VH
+          where
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

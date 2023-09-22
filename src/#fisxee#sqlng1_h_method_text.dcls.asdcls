@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQLNG1_H_METHOD_TEXT' 
+@MappingRole: true 
+define role /FISXEE/SQLNG1_H_METHOD_TEXT { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQLNG1_H_METHOD_TEXT 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/sql_ng_scan_type_text' 
+@MappingRole: true 
+define role /fisxee/sql_Ng_Scan_Type_Text { 
+  grant 
+    select 
+      on 
+        /FISXEE/sql_ng_scan_type_text 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

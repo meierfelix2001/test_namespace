@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQL_NG_FILE_CATEG_VH' 
+@MappingRole: true 
+define role /fisxee/sql_Ng_File_Categ_Vh { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQL_NG_FILE_CATEG_VH 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

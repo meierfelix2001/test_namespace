@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQL_NG_PROCESS_STA_MAX' 
+@MappingRole: true 
+define role /fisxee/sql_Ng_Process_Sta_Max { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQLNG1_PROCESS_STA_MAX 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

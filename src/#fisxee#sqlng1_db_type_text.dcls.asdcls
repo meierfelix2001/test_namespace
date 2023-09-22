@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQLNG1_DB_TYPE_TEXT'
+@MappingRole: true
+define role /fisxee/sqlNg1_DB_Type_Text {
+  grant
+    select
+      on
+        /FISXEE/SQLNG1_DB_TYPE_TEXT
+          where
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

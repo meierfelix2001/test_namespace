@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQL_NG_ASC_USAGE_TEXT' 
+@MappingRole: true 
+define role /fisxee/sql_Ng_Asc_Usage_Text { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQL_NG_ASC_USAGE_TEXT 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}

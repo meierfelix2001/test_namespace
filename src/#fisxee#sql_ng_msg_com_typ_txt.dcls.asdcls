@@ -1,0 +1,10 @@
+@EndUserText.label: '/FISXEE/SQL_NG_MSG_COM_TYP_TXT' 
+@MappingRole: true 
+define role /fisxee/sql_Ng_Msg_Com_Typ_Txt { 
+  grant 
+    select 
+      on 
+        /FISXEE/SQL_NG_MSG_COM_TYP_TXT 
+          where 
+            ( ) = aspect pfcg_auth( /FISXEE/NG, ACTVT = '03' );
+}
